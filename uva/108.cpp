@@ -3,7 +3,7 @@ using namespace std;
 
 int maxSum=0;
 
-int kadane(int n, int *arr){
+int kadane(int n, const int *arr){
     int max = 0;
     int maxSoFar = 0;
     for(int i=0; i < n; i++){
